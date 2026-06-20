@@ -26,3 +26,6 @@ A rule-based chatbot developed using Python and Streamlit.
 1. Install requirements
 2. Run:
    streamlit run app.py
+
+## Project URL - Ready to use
+https://rule-based-ai-chatbot-codebuddy.streamlit.app/
