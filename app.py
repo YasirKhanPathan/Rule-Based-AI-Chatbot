@@ -6,6 +6,16 @@ st.title("Rule Based AI Chatbot")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
+st.sidebar.title("Decodebot")
+
+if st.sidebar.button("New Chat"):
+    st.session_state.messages = []
+    st.rerun()
+
+st.sidebar.write("A Rule-Based AI Chatbot built with Python and Streamlit.")
+
+
+
 user_input = st.chat_input("Enter your message.")
 
 if user_input:
