@@ -6,7 +6,7 @@ st.title("Rule Based AI Chatbot")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-st.sidebar.title("Decodebot")
+st.sidebar.title("CodeBuddy 🤖")
 
 if st.sidebar.button("New Chat"):
     st.session_state.messages = []
