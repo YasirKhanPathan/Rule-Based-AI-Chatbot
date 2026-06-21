@@ -20,7 +20,7 @@ I can explain programming languages such as Python, C++, Java, HTML, CSS, JavaSc
         "who are you",
         "your name"
     ]):
-        responses.append((message.find("your name"), "My name is Decodebot."))
+        responses.append((message.find("your name"), "My name is CodeBuddy."))
 
     if any(phrase in message for phrase in [
         "what can you do",
